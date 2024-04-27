@@ -1,7 +1,8 @@
 name: deno_deploy
 description: Runtime APIs for running Dart Edge on Deno Deploy environments.
 homepage: https://dartedge.dev
-repository: https://github.com/invertase/dart_edge/tree/main/packages/deno_deploy
+# repository: https://github.com/invertase/dart_edge/tree/main/packages/deno_deploy
+publish_to: none
 version: 0.0.1-dev.6
 
 environment:
