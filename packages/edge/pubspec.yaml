@@ -1,7 +1,8 @@
 name: edge
 description: Run Dart code on Edge functions, supporting Vercel and Cloudflare Workers.
 homepage: https://dartedge.dev
-repository: https://github.com/invertase/dart_edge/tree/main/packages/edge
+# repository: https://github.com/invertase/dart_edge/tree/main/packages/edge
+publish_to: none
 version: 0.0.7
 
 environment:
@@ -24,7 +25,7 @@ dependencies:
 
 executables:
   edge:
-  
+
 dev_dependencies:
   build_runner: ^2.3.3
   freezed: ^2.3.2

@@ -1,7 +1,8 @@
 name: edge_runtime
 description: Runtime APIs for running Dart on Edge function environments.
 homepage: https://dartedge.dev
-repository: https://github.com/invertase/dart_edge/tree/main/packages/edge_runtime
+# repository: https://github.com/invertase/dart_edge/tree/main/packages/edge_runtime
+publish_to: none
 version: 0.0.4+2
 
 environment:
