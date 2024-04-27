@@ -5,10 +5,12 @@ repository: https://github.com/invertase/dart_edge/tree/main/packages/edge_http_
 version: 0.0.1+3
 
 environment:
-  sdk: ">=2.18.5 <3.0.0"
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   edge_runtime: ^0.0.4+2
+  # edge_runtime: 
+  #   path: ../edge_runtime
   http: ^0.13.5
 
 dev_dependencies:

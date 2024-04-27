@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:typings/core.dart' as interop;
 
-final crypto = Crypto._(interop.crypto.call());
+final crypto = Crypto._(interop.crypto);
 
 class Crypto {
   final interop.Crypto _delegate;
