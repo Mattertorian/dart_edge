@@ -9,5 +9,8 @@ environment:
 
 dependencies:
   js: ^0.6.5
-  edge_runtime: ^0.0.4+2
+  edge_runtime: 
+    git: 
+      url: https://github.com/Mattertorian/dart_edge.git
+      path: packages/edge_runtime
   typings: ^0.0.6+3
